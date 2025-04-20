@@ -1,0 +1,65 @@
+/* whitepaper.css */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0a0b1f;
+    color: #e0e0f0;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #14f195; /* Solana green */
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    color: #8e97ff; /* Solana blue-purple */
+    border-bottom: 2px solid #14f195;
+    padding-bottom: 5px;
+    margin-top: 40px;
+  }
+  
+  p, li {
+    color: #f0f0f0;
+    font-size: 17px;
+  }
+  
+  ol {
+    padding-left: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px 10px;
+    }
+  
+    h1 {
+      font-size: 28px;
+    }
+  
+    h2 {
+      font-size: 22px;
+    }
+  
+    p, li {
+      font-size: 16px;
+    }
+  }
+  

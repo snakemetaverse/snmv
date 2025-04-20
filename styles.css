@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0e0e1a;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url('snk_nft.png') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(14, 14, 26, 0.6); /* Opacity Layer */
+  z-index: 1;
+}
+
+.hero .intro-text {
+  position: relative;
+  z-index: 2;
+  padding: 0 20px;
+  max-width: 1000px;
+}
+
+.hero h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Section Styling */
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section h2 {
+  color: #00ffa3; /* Solana Teal */
+  margin-bottom: 20px;
+}
+
+.nft-utility p,
+.game-mechanics p,
+.token-info p {
+  font-size: 1.1rem;
+  color: #cccccc;
+}
+
+/* Buttons */
+.cta-buttons {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.cta-buttons button {
+  background: linear-gradient(90deg, #9945FF, #14F195);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  margin: 10px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cta-buttons button:hover {
+  opacity: 0.85;
+}
+
+/* Footer */
+footer.socials {
+  background-color: #1a1a2e;
+  text-align: center;
+  padding: 40px 20px;
+  color: #ffffff;
+}
+
+footer.socials a {
+  color: #14f195;
+  text-decoration: none;
+}
+
+footer.socials a:hover {
+  text-decoration: underline;
+}
